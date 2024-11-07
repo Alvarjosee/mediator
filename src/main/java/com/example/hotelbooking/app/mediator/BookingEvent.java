@@ -1,0 +1,14 @@
+package com.example.hotelbooking.app.mediator;
+
+public enum BookingEvent {
+    BOOKING_CREATED,
+    BOOKING_CANCELLED,
+    NO_ROOMS_AVAILABLE,
+    MAX_ROOMS_REACHED,
+    AVAILABILITY_UPDATED,
+    AVAILABILITY_RESTORED,
+    CONFIRMATION_SENT,
+    CANCELLATION_SENT,
+    PAYMENT_PROCESSED,  
+    PAYMENT_REFUNDED   
+}
